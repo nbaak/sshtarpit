@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+    endlessh:
+        container_name: sshtarpit
+        image: harshavardhanj/endlessh:latest
+        ports:
+        - "22:2222"
+        restart: always
